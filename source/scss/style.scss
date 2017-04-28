@@ -1,0 +1,96 @@
+@import "_variables";
+
+a {
+  color: $primary-color;
+}
+
+button {
+  color: $primary-color;
+  border-color: $primary-color;
+  background-color: lighten($color-two, 20%);
+}
+
+p {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+h1 {
+  font-size: $font-base-size * 2;
+  font-family: $serif-fonts;
+}
+
+h2 {
+  font-size: $font-base-size * 1.75;
+  font-family: $serif-fonts;
+}
+
+h3 {
+  font-size: $font-base-size * 1.5;
+  font-family: $serif-fonts;
+}
+
+h4 {
+  font-size: $font-base-size * 1.25;
+  font-family: $serif-fonts;
+}
+
+h5 {
+  font-size: $font-base-size * 1;
+  font-family: $serif-fonts;
+}
+
+h6 {
+  font-size: $font-base-size * 0.75;
+  font-family: $serif-fonts;
+}
+
+label {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+figcaption {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+th {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+td {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+tr {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+input {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+}
+
+textarea {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+  border-radius: $border-radius;
+}
+
+img {
+  font-size: $font-base-size;
+  font-family: $serif-fonts;
+  border-radius: $border-radius;
+}
+
+input[type="text"] {
+  border-radius: $border-radius;
+}
+
+input[type="button"] {
+  background-color: lighten($color-two, 20%);
+}
